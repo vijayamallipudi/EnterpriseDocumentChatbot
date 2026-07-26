@@ -12,6 +12,8 @@ retrieval-augmented generation (RAG) pipeline built with LangChain, and running
 - **UI**: a minimal static chat + upload page
 - **Answers are source-grounded**: every response cites the filename(s) it drew from, and the model is instructed to say when it doesn't know rather than guess
 
+![Chat UI answering questions grounded in an uploaded PDF, with sources cited](docs/screenshot.png)
+
 ## Prerequisites
 
 1. [Ollama](https://ollama.com) installed and running.
